@@ -8,11 +8,66 @@
   color: white;
   font-size: 24px;
   font-weight: bold;
-  text-shadow: 1px 1px 3px rgba(0,0,0,0.2);
-  box-shadow: 0 0 15px rgba(0,0,0,0.2);
+  text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
 }
 
 .card-large {
   height: 50vh;
   max-height: 400px;
 }
+
+.row a .card-category {
+  background-image: url("https://wallpapercave.com/wp/wp6288900.jpg") !important;
+  background-position-x: 4981px;
+}
+
+.position-relative .card-category{
+  transform:translatex(0px) translatey(0px);
+  background-image:url("https://i.pinimg.com/originals/7b/7c/59/7b7c59cc2974ad20e9c57243fbe6dc5f.jpg") !important;
+  background-position-y:3978px;
+ }
+
+/* Import Google Fonts */
+@import url("//fonts.googleapis.com/css2?family=Walter+Turncoat:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap");
+
+/* Italic Tag */
+.container .row .col-sm-6 small em{
+ font-family:'Walter Turncoat', handwriting;
+}
+
+/* Heading */
+.container h3{
+ font-family:'Walter Turncoat', handwriting;
+}
+
+/* Italic Tag */
+.d-block small em{
+ font-family:'Walter Turncoat', handwriting;
+}
+
+/* Heading */
+.container h5{
+ font-family:'Walter Turncoat', handwriting;
+}
+
+/* Label */
+#new_review .review_comment label{
+ font-family:'Walter Turncoat', handwriting;
+}
+
+/* Label */
+#new_review .review_rating label{
+ font-family:'Walter Turncoat', handwriting;
+}
+
+/* Star rating */
+#new_review .review_rating .gl-star-rating--ltr{
+ font-family:'Walter Turncoat', handwriting;
+}
+
+/* Button */
+#new_review .btn-flat{
+ font-family:'Walter Turncoat', handwriting;
+}
+

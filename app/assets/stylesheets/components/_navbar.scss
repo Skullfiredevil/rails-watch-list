@@ -14,3 +14,15 @@
 .logo {
   width: 40px;
 }
+
+/* Import Google Fonts */
+@import url("//fonts.googleapis.com/css2?family=Walter+Turncoat:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap");
+
+/* Navbar */
+.navbar{
+ transform:translatex(0px) translatey(0px);
+ background-color:transparent;
+ text-transform:capitalize;
+ text-shadow:rgba(0, 0, 0, 0.3) 0px 1px 1px;
+ font-family:'Walter Turncoat', handwriting;
+}
